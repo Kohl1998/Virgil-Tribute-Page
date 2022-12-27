@@ -34,6 +34,16 @@ p {
     width: 50%;
 }
 
+#Github-link {
+    text-decoration: none;
+    color: #191970;
+    text-transform: uppercase;
+}
+
+#Github-link :hover {
+    color: red;
+}
+
 figcaption {
     text-align: var(--text);
 }
