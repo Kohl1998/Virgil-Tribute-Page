@@ -15,6 +15,7 @@ body {
 /* color of h1 title */ 
 h1, h2, p {
     text-align: var(--text);
+    font-family: sans-serif;
 }
 
 p {
@@ -27,7 +28,13 @@ p {
     margin-right: auto;
     display: block;
     width: 50%;
+    cursor: pointer;
 }
+
+/* Adds spacing between sections */ 
+#collabration {
+    margin-top: 30px;
+} 
 
 #Github-link {
     text-decoration: none;
