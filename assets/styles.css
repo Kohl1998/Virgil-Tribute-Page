@@ -1,6 +1,4 @@
-/* Off-White page */ 
-
- @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap'); 
 
 body {
     background-color: #FAF9F6;
@@ -8,21 +6,27 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* To reapply styles multiple times */ 
 :root {
     --text: center;
 }
 
 /* color of h1 title */ 
-h1, h2, p {
+h1, h2, h3, p {
     text-align: var(--text);
     font-family: sans-serif;
+}
+
+/* For sub-sections */ 
+.margin-spacing {
+    margin-top: 30px;
 }
 
 p {
     font-size: 18px;
 }
 
-/* To center image */ 
+/* To center tribute image */ 
 #tribute-img, #nike-collab {
     margin-left: auto;
     margin-right: auto;
@@ -31,21 +35,31 @@ p {
     cursor: pointer;
 }
 
-/* Adds spacing between sections */ 
-#collabration {
-    margin-top: 30px;
-} 
+/* To center YT link */
+iframe {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 50%;
+}
 
+footer {
+    margin: 30px;
+    text-align: right;
+}
+
+/* For anchor link in footer */ 
 #Github-link {
     text-decoration: none;
     color: #191970;
     text-transform: uppercase;
 }
 
+/* User interactivity */ 
 #Github-link :hover {
     color: red;
 }
-
+ /* To align image captions to the center */ 
 figcaption {
     text-align: var(--text);
 }
