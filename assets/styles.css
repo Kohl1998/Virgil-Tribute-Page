@@ -12,11 +12,6 @@ body {
     --text: center;
 }
 
-/* hex code for silver */
-#title {
-    text-shadow: 5px 10px #C0C0C0;
-}
-
 /* color of h1 title */ 
 h1, h2, p {
     text-align: var(--text);
