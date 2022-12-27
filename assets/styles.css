@@ -27,7 +27,7 @@ p {
 }
 
 /* To center image */ 
-#tribute-img {
+#tribute-img, #nike-collab {
     margin-left: auto;
     margin-right: auto;
     display: block;
