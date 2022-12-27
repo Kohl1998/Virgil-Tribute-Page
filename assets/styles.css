@@ -9,7 +9,7 @@ body {
 }
 
 /* color of h1 title */ 
-header h1 {
+h1, h2, p {
     text-align: var(--text);
 }
 
