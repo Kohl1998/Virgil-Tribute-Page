@@ -70,6 +70,7 @@ figcaption {
 /* Responsive Design for Phone */
 @media only screen and (max-width: 480px) {
     #tribute-img {
+        /* For full image to appear */ 
         object-fit: cover;
         width: 100%;
     }
@@ -80,11 +81,15 @@ figcaption {
     iframe {
         object-fit: cover;
         width: 80%;
+        /* To center video */
         margin-left: auto;
         margin-right: auto;
     }
     body {
         background-color: #fff;
+    }
+    p {
+        font-family: 'Verdana';
     }
     #Github-link {
         color: blue;
