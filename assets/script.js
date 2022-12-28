@@ -2,7 +2,7 @@
 // Add variables for Virgil's info
 // Console log info 
 
-/* alert("Welcome to my tribute page on Virgil Abloh for the believers")
+alert("Welcome to my tribute page on Virgil Abloh for the believers")
 
 var feedback = confirm("If you wish to continue, click OK",)
 
@@ -10,8 +10,9 @@ var appreciation = prompt("How was Virgil impacted your life?")
 
 alert(feedback)
 
-alert(appreciation) */ 
+alert(appreciation) 
 
+// Occupations
 var timeline = "1980-2021"
 console.log("Virgil lived from " + timeline)
 
@@ -22,6 +23,7 @@ var occupation_4 = "Architect"
 
 console.log("Virgil Abloh was a: " + '\n' + '--------------------' + '\n' + occupation_1 + '\n' + occupation_2 + '\n' + occupation_3 + '\n' + occupation_4)
 
+// Collabrations
 var collab_1 = "Nike"
 var collab_2 = "Ikea"
 var collab_3 = "Donda"
