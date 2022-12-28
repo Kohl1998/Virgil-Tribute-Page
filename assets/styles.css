@@ -22,8 +22,11 @@ h1, h2, h3, p {
     margin-top: 30px;
 }
 
+/* To push text away from the edges of the page */
 p {
     font-size: 18px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 /* To center tribute image */ 
