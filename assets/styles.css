@@ -20,6 +20,8 @@ h1, h2, h3, p {
 /* For sub-sections */ 
 .margin-spacing {
     margin-top: 30px;
+    /* Neon blue */
+    color: #1F51FF;
 }
 
 /* To push text away from the edges of the page */
