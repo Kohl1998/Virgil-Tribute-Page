@@ -69,6 +69,48 @@ figcaption {
     text-align: var(--text);
 }
 
+/* Responsive Design for smaller Phones */
+@media only screen and (max-width: 380px) {
+    #tribute-img {
+        /* For full image to appear */ 
+        object-fit: cover;
+        width: 100%;
+    }
+    #nike-collab {
+        object-fit: cover;
+        width: 100%;
+    }
+    iframe {
+        object-fit: cover;
+        width: 80%;
+        /* To center video */
+        margin-left: auto;
+        margin-right: auto;
+    }
+    body {
+        background-color: #fff;
+    }
+    /* size of text */ 
+    p {
+        font-family: 'sans-serif';
+        font-size: 16px;
+    }
+    #Github-link {
+        color: blue;
+        font-size: 20px;
+    }
+    .margin-spacing {
+        color: blue;
+        text-transform: uppercase;
+    }
+    /* Capitalized text in footer */
+    footer {
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+}
+
+
 /* Responsive Design for Phones */
 @media only screen and (max-width: 480px) {
     #tribute-img {
