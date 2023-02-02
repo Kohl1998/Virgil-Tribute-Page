@@ -16,11 +16,9 @@ Afterwards, I used vscode which is an integrated development environment which a
 
 Lastly, once I was done I pushed all the updates to my remote repository from my local repo using commits, and once I was happy I deployed the changes to the live website.
 
-## Usage
+## Screenshot
 
-```md
-    ![alt text](assets/images/Virgil(Deployed Page).png)
-    ```
+[![lastpage-3.png](https://i.postimg.cc/gJhYH5JZ/lastpage-3.png)](https://postimg.cc/Q9XGXfc8)
 
 ## Credits
 
